@@ -1,3 +1,9 @@
+Created as the final project submission of Program Structure and Algorithms(INFO6205) class at Northeastern University.
+
+The task was to test the performance of different sorting algorithms when sorting Chinese(unicode) characters in their Pinyin(English) order.
+The algorithms compared were Dual Pivot Quicksort, MSD Radix Sort(with insertion sort cutoff optimization), TimSort, LSD Radix Sort
+and Husky Sort(Professor Robin Hillyard's approach to bringing the superior performance of Dual Pivot Quicksort for primitives over to Objects, by Hashing them into 64 bit longs and using introsort over them)
+
 ## The project structure is split up into main(Sources root), resources(Resources root), test(Test root) and "report and paper" with Driver.java as the main class.
 
 ### The "sorts" package consists of:
